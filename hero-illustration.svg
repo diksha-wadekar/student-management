@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#d8b9a8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#d8b9a8" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <circle cx="230" cy="190" r="190" fill="url(#glow)" />
+
+  <!-- open book base -->
+  <g stroke="#f3efe4" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.85">
+    <path d="M80,260 C140,235 190,235 215,258 C240,235 290,235 350,260 L350,300 C290,278 240,278 215,300 C190,278 140,278 80,300 Z" />
+    <line x1="215" y1="258" x2="215" y2="300" />
+    <path d="M100,252 C150,232 185,232 205,250" opacity="0.6" />
+    <path d="M330,252 C280,232 245,232 225,250" opacity="0.6" />
+  </g>
+
+  <!-- graduation cap -->
+  <g stroke="#f3efe4" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M215,110 L305,148 L215,186 L125,148 Z" />
+    <path d="M165,163 L165,196 C165,214 265,214 265,196 L265,163" />
+    <line x1="305" y1="148" x2="305" y2="205" />
+    <circle cx="305" cy="215" r="8" />
+  </g>
+
+  <!-- laurel sprigs -->
+  <g stroke="#d8b9a8" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <path d="M120,300 C100,280 95,250 105,220" />
+    <path d="M105,270 L120,262 M101,248 L117,244 M103,226 L118,224" />
+    <path d="M320,300 C340,280 345,250 335,220" />
+    <path d="M335,270 L320,262 M339,248 L323,244 M337,226 L322,224" />
+  </g>
+
+  <!-- sparkle accents -->
+  <g fill="#d8b9a8" opacity="0.8">
+    <path d="M90,120 L94,130 L104,134 L94,138 L90,148 L86,138 L76,134 L86,130 Z" />
+    <path d="M340,90 L343,98 L351,101 L343,104 L340,112 L337,104 L329,101 L337,98 Z" />
+  </g>
+</svg>
